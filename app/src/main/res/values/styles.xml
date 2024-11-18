@@ -1,0 +1,19 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#6200EE</item>
+        <item name="colorPrimaryDark">#3700B3</item>
+        <item name="colorAccent">#03DAC5</item>
+    </style>
+
+    <!-- Стиль для кнопок с закругленными углами -->
+    <style name="RoundedButton">
+        <item name="android:backgroundTint">#6200EE</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:background">@drawable/rounded_button</item>
+    </style>
+</resources>
